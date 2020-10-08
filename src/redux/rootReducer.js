@@ -6,7 +6,7 @@ import userReducer from './user/userReducer';
 const rootReducer = combineReducers({
   cakes: cakeReducer,
   iceCreams: iceCreamReducer,
-  user: userReducer,
+  users: userReducer,
 });
 
 export default rootReducer;
